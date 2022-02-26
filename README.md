@@ -16,12 +16,6 @@ I'd love to get contributions from you! Whether you are most comfortable writing
 HTML, CSS, or Javascript (either Nodejs or Angular), feel free to reach out to me about
 some of my design goals and we'll see where your efforts can best be used.
 
-
-License
--------
-
-See [LICENSE.md](LICENSE.md) file.
-
 CURRENTLY WORKING
 -------
 
