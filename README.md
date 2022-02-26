@@ -1,3 +1,6 @@
+Run the Instaler.sh for install with [sudo sh Installer.sh]
+======
+
 Node.JS IrisOS
 ======
 
