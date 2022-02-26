@@ -1,6 +1,6 @@
 Install The Panel
 ======
-bash <(https://raw.githubusercontent.com/DavidDemonio/irisos-node/main/Installer.sh)
+bash <(curl -s https://raw.githubusercontent.com/DavidDemonio/irisos-node/main/Installer.sh)
 
 Node.JS IrisOS
 ======
