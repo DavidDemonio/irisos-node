@@ -28,7 +28,7 @@ services:
       # This is independant of the USE_HTTPS setting.
       SERVER_PORT: 8443
 
-      # On startup, mineos will check if an account of this name exists.
+      # On startup, irisos will check if an account of this name exists.
       # If it does not exist, one will be created. This account, and
       # any other created with this variable will be permitted to login
       # to the web interface.
@@ -58,7 +58,7 @@ services:
       - "25565-25570:25565-25570/udp"
 
 volumes:
-  mineos_data:
+  irisos_data:
 
 networks:
-  mineos:
+  irisos:
