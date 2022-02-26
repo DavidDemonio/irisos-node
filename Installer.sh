@@ -4,6 +4,7 @@ echo IrisOS Script Starting Installation
 apt update && apt upgrade
 curl -sL https://deb.nodesource.com/setup_10.x | bash -
 apt-get -y install nodejs
+apt-get install npm
 apt-get update
 apt-get install -y git supervisor rdiff-backup screen build-essential rsync
 apt-get -y install openjdk-8-jre-headless
