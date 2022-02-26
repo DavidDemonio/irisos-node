@@ -1,5 +1,6 @@
-Run the Instaler.sh for install with [sudo sh Installer.sh]
+Install The Panel
 ======
+bash <(https://raw.githubusercontent.com/DavidDemonio/irisos-node/main/Installer.sh)
 
 Node.JS IrisOS
 ======
