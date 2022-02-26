@@ -1,0 +1,18 @@
+[Unit]
+Description=Start IrisOS minecraft front-end
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/usr/games/minecraft
+Type=forking
+Environment="SHELL=/bin/bash"
+ExecStart=/usr/bin/node service.js start
+ExecStop=/usr/bin/node service.js stop
+ExecReload=/usr/bin/node service.js restart
+PIDFile=/var/run/irisos.pid
+Restart=on-failure
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target
