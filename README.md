@@ -2,7 +2,7 @@ Node.JS IrisOS
 ======
 
 IrisOS is a server front-end to ease managing Minecraft administrative tasks.
-This iteration using Node.js aims to enhance previous MineOS scripts (Python-based),
+This iteration using Node.js aims to enhance previous IrisOS scripts (Python-based),
 by leveraging the event-triggering, asyncronous model of Node.JS and websockets.
 
 This allows the front-end to provide system health, disk and memory usage, and logging in real-time.
