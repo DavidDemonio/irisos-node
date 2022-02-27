@@ -21,5 +21,5 @@ cd /usr/games/minecraft
 ./generate-sslcert.sh
 cp init/supervisor_conf /etc/supervisor/conf.d/irisos.conf
 supervisorctl reload
-supervisorctl start irisos
+supervisorctl restart irisos
 echo IrisOS Script Installed!! Your login credentials are your Username and Password from SSH
