@@ -1,5 +1,5 @@
 #You need to run this script with root permissions
-echo IrisOS Script Starting Installation
+echo IrisOS Script Starting Installation Thank You For Choosing Us!
 
 apt update && apt upgrade
 curl -sL https://deb.nodesource.com/setup_10.x | bash -
