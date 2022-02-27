@@ -1,6 +1,8 @@
 #You need to run this script with root permissions
 echo IrisOS Script Starting Installation Thank You For Choosing Us!
 
+ufw allow 8443/tcp
+ufw allow 8443/udp
 apt update && apt upgrade
 curl -sL https://deb.nodesource.com/setup_10.x | bash -
 apt-get -y install nodejs
