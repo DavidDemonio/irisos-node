@@ -1,12 +1,9 @@
-#!/bin/sh
-while true
 echo "------------------------------------------"
 echo "               IrisOS Panel               "
 echo "           Starting Installation...       "
 echo "         Thank you for choosing us!       "
 echo "                Ver 1.1.0                 "
 echo "------------------------------------------"
-
 apt-get update
 apt install iptables
 apt install ufw
@@ -33,7 +30,6 @@ cd /usr/games/minecraft
 cp init/supervisor_conf /etc/supervisor/conf.d/irisos.conf
 supervisorctl reload
 supervisorctl restart irisos
-
 echo "------------------------------------------"
 echo "               IrisOS Panel               "
 echo "             Panel Installed...           "
