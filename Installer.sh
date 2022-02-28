@@ -1,6 +1,15 @@
-#You need to run this script with root permissions
-echo IrisOS Script Starting Installation Thank You For Choosing Us!
+#!/bin/sh
+while true
+echo "------------------------------------------"
+echo "               IrisOS Panel               "
+echo "           Starting Installation...       "
+echo "         Thank you for choosing us!       "
+echo "                Ver 1.1.0                 "
+echo "------------------------------------------"
 
+apt-get update
+apt install iptables
+apt install ufw
 ufw allow 8443/tcp
 ufw allow 8443/udp
 apt update && apt upgrade
@@ -24,4 +33,11 @@ cd /usr/games/minecraft
 cp init/supervisor_conf /etc/supervisor/conf.d/irisos.conf
 supervisorctl reload
 supervisorctl restart irisos
+done
+echo "------------------------------------------"
+echo "               IrisOS Panel               "
+echo "             Panel Installed...           "
+echo "           Thank you for choosing us!     "
+echo "                 Ver 1.1.0                "
+echo "------------------------------------------"
 echo IrisOS Script Installed!! Your login credentials are your Username and Password from SSH
