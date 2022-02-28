@@ -5,8 +5,6 @@ echo "         Thank you for choosing us!       "
 echo "                Ver 1.1.0                 "
 echo "------------------------------------------"
 apt-get update
-apt install iptables
-apt install ufw
 ufw allow 8443/tcp
 ufw allow 8443/udp
 apt update && apt upgrade
