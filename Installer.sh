@@ -35,3 +35,4 @@ echo "           Thank you for choosing us!     "
 echo "                 Ver 1.1.0                "
 echo "------------------------------------------"
 echo IrisOS Script Installed!! Your login credentials are your Username and Password from SSH
+echo Panel Address: https://yourip:8443
